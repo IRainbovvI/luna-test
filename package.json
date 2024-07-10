@@ -7,7 +7,7 @@
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.16.0",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^15.0.6",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "react": "^18.3.1",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,6 +43,14 @@
     ]
   },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "msw": "^2.3.1",
+    "react-test-renderer": "^18.3.1",
+    "util": "^0.12.5",
+    "whatwg-fetch": "^3.6.20"
   }
 }
